@@ -52,27 +52,27 @@ form button:hover{
     
 }
 .todo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.todo-item{
-    width:46vw;
-    background-color: white;
-    color: black;
+    min-width: 46vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 15px;
+    background-color: white;
+    color: black;
     margin-bottom: 10px;
+}
+
+.todo-item{
+
+}
+.todo-text{
     font-size: 1.5rem;
+    padding-left: 10px;
 }
 .complet-btn{
     background-color: green;
     color: white;
 }
 .trush-btn{
-    background-color:#f6d365;
-    color: gray;
+    background-color: white;
+    color: #fda085;
 }
